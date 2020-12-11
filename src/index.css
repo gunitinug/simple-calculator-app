@@ -1,0 +1,19 @@
+#root > div {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  input {
+    flex: 1 100%;
+    font-weight: bolder;
+  }
+  
+  button {
+    flex: 1 25%;
+  }
+
+  #root * {
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+  }
